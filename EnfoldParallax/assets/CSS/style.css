@@ -1,1 +1,151 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header
+{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white-color);
+    background: url('../Images/Startup.png') no-repeat  top right  /50% 100%;
+}
+
+header nav
+{
+    width: 100%;
+    height: 15vh;
+    font-size: 13px;
+    border-bottom: var(--border-navMenu) solid 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .Enfold_Logo
+{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header nav .Enfold_Logo  img
+{
+    width: 90px;
+    height: 90px;
+}
+
+ header nav .links
+{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+header nav .links .menu
+{
+    width: 100%;
+    height: 100%;
+    border-right: var(--border-navMenu) solid 1px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header nav .links .menu ul
+{
+    width: 65%;
+    height: 100%;
+    list-style-type: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.4s;
+
+}
+
+header nav .links .menu ul li a
+{
+
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+header nav .links .menu ul li a:hover
+{
+    color:var(--hover-navColor);
+    transition: all 0.4s;
+
+}
+
+
+header nav .links .Social_Media
+{
+    width: 22%;
+    height: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+header nav .links .Social_Media a i
+{
+    color:var(--white-color) ;
+}
+
+
+header nav .links .Social_Media a i:hover
+{
+    color:var(--hover-navColor)
+}
+
+header .Header_Content
+{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+}
+
+
+
+header .Header_Content  .Main_Enfold , 
+header .Header_Content .Main_Parallax
+
+{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ header .Header_Content .Main_Parallax img,
+header .Header_Content  .Main_Enfold  img
+
+{
+    transform: scale(0.79)  translate(0 , -12%);
+}
+
+
+
 
